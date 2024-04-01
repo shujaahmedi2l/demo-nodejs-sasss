@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "demo-nodejs-sasss"
+  description: "nothing special"
+  annotations:
+    github.com/project-slug: user:default/shujaahmedi2l/demo-nodejs-sasss
+    argocd/app-name: demo-nodejs-sasss
+  links:
+    - url: dashboard.ideatolife.me
+      title: Web Application
+      icon: LaunchIcon
+spec:
+  type: service
+  owner: guests
+  lifecycle: experimental
